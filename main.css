@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #001845;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	background:
+    linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)),
+    url("img.jpeg") ;
+	
+}
+
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	/* background-color: rgb(98, 210, 255); */
+	background-color:#001233;
+	
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.logo{
+	padding: 15px;
+	color: white;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;	
+}
+.logo:hover{
+	cursor: pointer;
+}
+
+.navbar ul{
+	padding: 10px;
+	margin-top: 20px;
+}
+.navbar li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	
+}
+.navbar a{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	border-radius: 20px;
+	padding: 10px;
+	transition: 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+	background-color: #ff331f;
+	color:white ;
+}
+
+#searchbx{
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+
+
+.banner{
+	text-align: center;
+	margin-top: 40px;
+	border: transparent;
+	border-radius: 15px;
+	height: 300px;
+	color: white;
+}
+
+
+#bbox{
+	margin-top: 90px;
+}
+#btn{
+    
+	border: white;
+	margin-left: 420px;
+	font-size: 80px;	
+	
+	font-family: fantasy;
+	transition: 0.3s ease-in-out;
+	padding: 50px;
+	text-decoration: none;
+	color: #ff331f;
+}
+
+#btn:hover{
+	border: 2px solid;
+	border-radius: 70px;
+	background-color: black;
+	color: #fff;
+}
+
+#tbl table td{
+	padding: 10px;
+	
+}
+
+#tbl table{
+	margin-left: 475px;
+	margin-top: 100px;
+	table-layout: auto;	
+	border: 2px rgb(98, 210, 255);
+	color: white;
+}
+
+#ig{
+	margin-top: 50px;
+
+}
+
+#follow{
+	background-color:#001233;
+	height: 100px;
+	padding-top:  50px; 
+	border: 3px solid transparent; 
+	margin-top: 40px;
+	color: white;
+}
+
+#follow h4:hover{
+	cursor: pointer;
+	color:#ff331f ;
+	
+}
+
+html{
+	scroll-behavior: smooth;
+}
